@@ -23,6 +23,7 @@ namespace myNotes.DAL
 
             };
 
+            context.SaveChanges();
 
             var notes = new List<Notes>
             {
@@ -34,12 +35,16 @@ namespace myNotes.DAL
                 CreatedOn = "Yesterday", IsDeleted = "Nope"}
             };
 
+            context.SaveChanges();
+
             var categories = new List<Categories>
             {
                 new Categories{ID = 1, Name = "Home" },
                 new Categories{ID = 2, Name = "SnakesOnly" },
                 new Categories{ID = 3, Name = "Work" }
             };
+
+            context.SaveChanges();
         }
     }
 }
