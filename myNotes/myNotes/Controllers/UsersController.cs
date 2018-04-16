@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using myNotes.DAL;
 using myNotes.Models;
 
+
 namespace myNotes.Controllers
 {
     public class UsersController : Controller

@@ -6,7 +6,7 @@ namespace myNotes.DAL
 {
     public class NotesConttext : DbContext
     {
-        public NotesConttext() : base("myNotesDatabase")
+        public NotesConttext() : base("myNote")
         {
         }
 
